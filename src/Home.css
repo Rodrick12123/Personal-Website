@@ -1,0 +1,34 @@
+
+.home{
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+}
+
+.home_row2{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 0px 10px;
+}
+
+.home_r2elements{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+.home_row3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.home_row3 >p{
+    display: flex;
+    margin-right: 10px;
+}
