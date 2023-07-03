@@ -82,6 +82,24 @@ function Projects() {
             </div>
         </div>
 
+        <div href='https://github.com/Rodrick12123/Personal-Website' target="_blank" className='projects_indv'>
+            <img src="/PW.PNG" alt="image" />
+            <p>
+                This Website
+            </p>
+            <div className='languages'>
+                <div className='language'>
+                    HTML
+                </div>
+                <div className='language'>
+                    React
+                </div>
+                <div className='language'>
+                    JavaScript
+                </div>
+            </div>
+        </div>
+
       </div>
       <header>More to be added here</header>
     </div>
