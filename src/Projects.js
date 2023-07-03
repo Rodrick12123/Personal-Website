@@ -10,7 +10,19 @@ function Projects() {
             <img src="/picph.PNG" alt="image" />
             <p>
                 Pictaphone
+                <div className='languages'>
+                    <div className='language'>
+                        HTML
+                    </div>
+                    <div className='language'>
+                        JavaScript
+                    </div>
+                    <div className='language'>
+                        Socket.io
+                    </div>
+                </div>
             </p>
+            
         </a>
 
         <a href="https://github.com/Rodrick12123/amazon-clone" target="_blank" className='projects_indv'>
@@ -18,6 +30,20 @@ function Projects() {
             <p>
                 Amazon Replica
             </p>
+            <div className='languages'>
+                <div className='language'>
+                    HTML
+                </div>
+                <div className='language'>
+                    JavaScript
+                </div>
+                <div className='language'>
+                    React.js
+                </div>
+                <div className='language'>
+                    Firebase
+                </div>
+            </div>
         </a>
 
         <a href='https://github.com/Rodrick12123/World-Cup-Website.github.io' target="_blank" className='projects_indv'>
@@ -25,6 +51,17 @@ function Projects() {
             <p>
                 World Cup Web
             </p>
+            <div className='languages'>
+                <div className='language'>
+                    HTML
+                </div>
+                <div className='language'>
+                    Python3
+                </div>
+                <div className='language'>
+                    SQL
+                </div>
+            </div>
         </a>
 
         <div href='https://observablehq.com/d/a12e08e997d1f2aa' target="_blank" className='projects_indv'>
@@ -32,6 +69,17 @@ function Projects() {
             <p>
                 Baseball Evolution
             </p>
+            <div className='languages'>
+                <div className='language'>
+                    HTML
+                </div>
+                <div className='language'>
+                    Plot
+                </div>
+                <div className='language'>
+                    JavaScript
+                </div>
+            </div>
         </div>
 
       </div>

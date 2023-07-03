@@ -65,3 +65,23 @@
     
     
 }
+
+.languages{
+    display: flex;
+    position: absolute; 
+    bottom: 10%;
+    margin-left: 10px;
+    /* transform: translate(-50%,-50%); */
+    /* background-color: black; */
+    
+    justify-content: space-between;
+    align-items: center;
+    font-size: .9rem;
+}
+
+.language{
+    margin-right: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    padding: 5px;
+}

@@ -5,6 +5,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 
+
 function Home() {
   return (
     <div className='home'>
@@ -14,7 +15,11 @@ function Home() {
               About Me
             </h1>
             <p>
-              Hello, my name is Rodrick Victdeon Lankford. I am a skilled
+              Name: Rodrick V. Lankford
+              \n School: Carleton College
+              \n Age: 22 years
+              \n From: Dallas, Tx
+              \n Hello, my name is Rodrick Victdeon Lankford. I am a skilled
                software developer who enjoys the challenge of solving complex 
                software development and design problems. I graduated from 
                Carleton College in June 2023 with a bachelor's degree in Computer Science. 
@@ -27,6 +32,9 @@ function Home() {
                quality of life for all. 
             </p>
             <p>Fun fact my favorite color is gold.</p>
+            <form method="get" action="Rodrick V. Lankford Resume.pdf">
+              <button type="submit" className='button'>Download Resume!</button>
+            </form>
           </div>
         </div>
 
@@ -86,8 +94,24 @@ function Home() {
           <p>
             <EmailIcon className= 'icon' /> lankfordr51@gmail.com
           </p>
-          
-          
+          {/* contact form here */}
+          <h1>Or Email Me Here:</h1>
+          <form className='form' target="_blank" action="https://formsubmit.co/lankfordr51@gmail.com" method="POST">
+            <div className="form_container">
+              <div className="form_row">
+                <div className="form_col">
+                  <input type="text" name="name" className="form_control" placeholder="Full Name" required />
+                </div>
+                <div className="form_col">
+                  <input type="email" name="email" className="form_control" placeholder="Email Address" required /> 
+                </div>
+              </div>
+            </div>
+            <div className="form_container">
+              <textarea placeholder="Your Message" className="form_control" name="message" rows="10" required></textarea>
+            </div>
+            <button type="submit" class="button">Submit Form</button>
+          </form>
         </div>
       
     </div>
