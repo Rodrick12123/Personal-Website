@@ -69,6 +69,11 @@
     width: 100%;
     border-radius: 5px;
     border: 1px solid goldenrod;
+    background-color: black;
+}
+
+.form_container{
+    color: goldenrod;
 }
 
 .form > button{

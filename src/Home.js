@@ -15,21 +15,21 @@ function Home() {
               About Me
             </h1>
             <p>
-              Name: Rodrick V. Lankford
-              \n School: Carleton College
-              \n Age: 22 years
-              \n From: Dallas, Tx
-              \n Hello, my name is Rodrick Victdeon Lankford. I am a skilled
+              <p>Name: Rodrick V. Lankford</p>
+              <p>School: Carleton College</p>
+              <p>Age: 22 years</p>
+              <p>From: Dallas, Tx</p>
+              <p>Hello, my name is Rodrick Victdeon Lankford. I am a skilled
                software developer who enjoys the challenge of solving complex 
                software development and design problems. I graduated from 
                Carleton College in June 2023 with a bachelor's degree in Computer Science. 
                My peers know me as reliable and someone who correctly completes assigned 
                duties earlier rather than later. One of my biggest career motivators 
-               involves the inquiries of innovative and creative software that push 
+               involves the implementation of innovative and creative software that push 
                the capabilities of technology to a new level. That said, I desire to 
                continue applying my skills to web development, software 
                development/engineering, and game development to improve the 
-               quality of life for all. 
+               quality of life for all.</p>
             </p>
             <p>Fun fact my favorite color is gold.</p>
             <form method="get" action="Rodrick V. Lankford Resume.pdf">
