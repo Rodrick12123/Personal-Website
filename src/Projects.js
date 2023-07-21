@@ -33,7 +33,7 @@ function Projects() {
             
         </a>
 
-        <a href="https://github.com/Rodrick12123/amazon-clone" target="_blank" className='projects_indv'>
+        <a href="https://clone-311b0.web.app" target="_blank" className='projects_indv'>
             <img src="/ama.PNG" alt="image" />
             <p>
                 
@@ -88,7 +88,7 @@ function Projects() {
             
         </a>
 
-        <div href='https://observablehq.com/d/a12e08e997d1f2aa' target="_blank" className='projects_indv'>
+        <a href='https://observablehq.com/d/a12e08e997d1f2aa' target="_blank" className='projects_indv'>
             <img src="/Base.PNG" alt="image" />
             <p>
                
@@ -113,9 +113,9 @@ function Projects() {
                 </div>
             </div>
             
-        </div>
+        </a>
 
-        <div href='https://github.com/Rodrick12123/Personal-Website' target="_blank" className='projects_indv'>
+        <a href='https://github.com/Rodrick12123/Personal-Website' target="_blank" className='projects_indv'>
             <img src="/PW.PNG" alt="image" />
             <p>
                 This Website
@@ -131,7 +131,7 @@ function Projects() {
                     JavaScript
                 </div>
             </div>
-        </div>
+        </a>
 
       </div>
       <header>More projects from GitHub to be added here</header>

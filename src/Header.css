@@ -1,52 +1,48 @@
-.header{
-    height: 60px;
-    display:flex;
-    align-items: center;
-    background-color: black;
-    position:sticky;
-    top: 0;
-    z-index: 100;
-    background: linear-gradient(
-        to bottom,
-        gold,
-        rgb(182, 157, 15)
-    );
-    
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* could add width:98.8vw for mobile */
+  background: linear-gradient(to bottom, gold, rgb(182, 157, 15));
 }
 
-.header_nav{
-    display: flex;
-    flex: 1;
-    margin-left: 5px;
-    margin-right: 5px;
-    justify-content: space-evenly;
-    height: 75%;
-    align-items: center;
-    font-size: 2rem;
-    background-color: black;
+.header_nav {
+  display: flex;
+  flex: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  justify-content: space-evenly;
+  height: 75%;
+  align-items: center;
+  font-size: 2rem;
+  background-color: black;
 }
 
-.header_home{
-    display: flex;
-    text-decoration: none;
-    color: goldenrod;
-    padding: 5px;
-    /* text-decoration: underline rgb(205, 176, 17); */
-    text-decoration: underline black;
+.header_home {
+  display: flex;
+  text-decoration: none;
+  color: goldenrod;
+  padding: 5px;
+  /* text-decoration: underline rgb(205, 176, 17); */
+  text-decoration: underline black;
 }
 
-.header_home:hover{
-    border: 1px solid goldenrod;
+.header_home:hover {
+  border: 1px solid goldenrod;
 }
 
-.header_projects{
-    display: flex;
-    color: goldenrod;
-    padding: 5px;
-    /* text-decoration: underline rgb(205, 176, 17); */
-    text-decoration: underline black;
+.header_projects {
+  display: flex;
+  color: goldenrod;
+  padding: 5px;
+  /* text-decoration: underline rgb(205, 176, 17); */
+  text-decoration: underline black;
 }
 
-.header_projects:hover{
-    border: 1px solid goldenrod;
+.header_projects:hover {
+  border: 1px solid goldenrod;
 }

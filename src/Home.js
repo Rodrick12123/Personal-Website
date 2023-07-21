@@ -57,7 +57,10 @@ function Home() {
             </ul>
           </div>
           {/* Image */}
-          <img src="/Me.jpg" alt="image" className='home_r2elements home_image'></img>
+          <div className='home_r2elements'>
+            <img src="/Me.jpg" alt="image" className='home_image'></img>
+
+          </div>
           {/* Skills */}
           <div className='home_r2elements'>
             <h1>
