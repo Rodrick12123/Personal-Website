@@ -32,7 +32,7 @@ function Home() {
                quality of life for all.</p>
             </p>
             <p>Fun fact my favorite color is gold.</p>
-            <form method="get" action="Rodrick V. Lankford Resume.pdf">
+            <form method="get" action="Rodrick Victdeon Lankford Resume.pdf">
               <button type="submit" className='button'>Download Resume!</button>
             </form>
           </div>
@@ -45,15 +45,17 @@ function Home() {
               Experience:
             </h1>
             <ul>
-              <li><h4>SayKid SDE Internship</h4> where I successfully worked with 
+              <li><h4>SayKid SDE Internship:</h4> During this internship I worked with 
               a team to develop a game for which SayKid's toy robot could interactively play against
-              a user. Also I worked with a partner to help develop their webpage futher.</li>
-              <li><h4>SayKid SDE Externship</h4> is where I spent my winter break developing several
+              a user. Also I worked with a partner to develop SayKid's webpage futher.</li>
+              <li><h4>SayKid SDE Externship:</h4> This was where I spent my winter break developing several
                games for SayKid's toy robot.</li>
-              <li><h4>Vex Robotics</h4> which was a robotics competition where I worked with a large team to
-              program the code for a rover like robot.</li>
-              <li><h4>BEST Robotics</h4> was much like Vex Robotics except with the caveat that my team
-               required to build all of the robots parts from scratch and needed to meet differn't specifications.</li>
+              <li><h4>Vex Robotics:</h4> At this competition I worked with a large team to
+              develop the code and design for a rover like robot. I held a leadership role which required me to manage 
+              each individual group and facilitate communication between them.</li>
+              <li><h4>BEST Robotics:</h4> This competition was much like Vex Robotics except with the caveat that my team was
+               required to build all of the robot parts from scratch and needed to meet specifications. My main responsibilities 
+               where to manage the coding group and ensure deadlines where met promptly.</li>
             </ul>
           </div>
           {/* Image */}
