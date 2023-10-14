@@ -35,10 +35,26 @@
     
 }
 
+.image_container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+}
+
+ul > li{
+    margin-top: 20px;
+    border: 1px solid goldenrod;
+    padding: 10px;
+    border-radius: 1vw;
+}
+
 .home_image{
-    /* min-width: 250px;
-    min-height: 250px; */
-    aspect-ratio: 1/1;
+    display: flex;
+    width: 50%;
+    height: 250px;
+    margin-right: 10px;
+    /* aspect-ratio: 1/1; */
     /* max-width: 500px;
     max-height: 500px; */
 }
@@ -78,6 +94,7 @@
 .form_col{
     width: 100%;
     border-radius: 20px;
+    color: goldenrod;
 }
 
 .form_control{
@@ -85,6 +102,7 @@
     border-radius: 5px;
     border: 1px solid goldenrod;
     background-color: black;
+    color: goldenrod;
 }
 
 .form_container{

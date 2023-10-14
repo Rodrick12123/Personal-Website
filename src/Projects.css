@@ -23,6 +23,7 @@
     justify-content: center;
     font-size: 2rem;
     color: goldenrod;
+
     
 }
 
@@ -42,6 +43,7 @@
     background-color: black;
     justify-content: center;
     align-items: center;
+    /* margin-bottom: 5px; */
     
     
 }
@@ -66,10 +68,25 @@
     
 }
 
+.project_contributors{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: .7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_contributors strong{
+    font-size: 1rem;
+}
+
+
+
 .languages{
     display: flex;
     position: absolute; 
-    bottom: 10%;
+    bottom: 2%;
     margin-left: 10px;
     /* transform: translate(-50%,-50%); */
     /* background-color: black; */
