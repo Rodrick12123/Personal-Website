@@ -10,39 +10,36 @@ function Home() {
   return (
     <div className='home'>
         <div className='home_row1'>
-          <div className='home_about'>
-            <div className='image_container'>
-              <img src="/Me.jpg" alt="image" className='home_image'></img>
-              <div className='home_about'>
-
-                
-                <h1>
-                  About Me
-                </h1>
-                <p>
-                  <p>Name: Rodrick V. Lankford</p>
-                  <p>School: Carleton College</p>
-                  <p>Age: 22 years</p>
-                  <p>From: Dallas, Tx</p>
-                  <p>Hello World, my name is Rodrick Victdeon Lankford. I am a skilled
-                  programmer who enjoys the challenge of solving challenging problems. I graduated from 
-                  Carleton College in June 2023 with a bachelor's degree in Computer Science. 
-                  My peers know me as reliable and someone who completes assigned 
-                  duties promptly. One of my biggest career motivators 
-                  involves the implementation of innovative and creative software that push 
-                  the capabilities of technology to a new level. That said, I desire to 
-                  continue applying my skills to improve the 
-                  quality of life for all.</p>
-                </p>
-                <p>Fun fact my favorite color is gold.</p>
-                <form method="get" action="Resume For Rodrick Lankford.pdf">
-                  <button type="submit" className='button'>Download Resume!</button>
-                </form>
-              </div>
-            </div>
-            
-            
+          <div className='image_container'>
+            <img src="/Me.jpg" alt="image" className='home_image'></img>
           </div>
+          
+          <div className='home_about'>
+            <h1>
+              About Me
+            </h1>
+            <p>
+              <p>Name: Rodrick V. Lankford</p>
+              <p>School: Carleton College</p>
+              <p>B.A. in Computer Science</p>
+              <p>Age: 22 years</p>
+              <p>From: Dallas, Tx</p>
+              <p>Hello World, my name is Rodrick Victdeon Lankford. I am a skilled
+              programmer who enjoys solving challenging problems. I graduated from 
+              Carleton College in June 2023 with a bachelor's degree in Computer Science. 
+              My peers know me as reliable and someone who completes assigned 
+              duties promptly. One of my biggest career motivators 
+              involves developing innovative and creative software that pushes 
+              the capabilities of technology to a new level. I am currently looking for an opportunity
+              to grow and apply my programming skills within an excellence-focused company. 
+              That said, I strive to pursue paths where my endeavors improve the quality of life for all.</p>
+            </p>
+            <p>Fun fact my favorite color is gold.</p>
+            <form method="get" action="Resume For Rodrick Lankford.pdf">
+              <button type="submit" className='button'>Download Resume!</button>
+            </form>
+          </div>
+
         </div>
 
         <div className='home_row2'>
@@ -52,18 +49,18 @@ function Home() {
               Technical Experiences:
             </h1>
             <ul>
-              <li><h3>SayKid SDE Internship:</h3> Assist with software testing and debugging.
-              Collaborate with team members to design and implement an interactive game module that implements a greedy algorithm using JavaScript for Saykid’s toy robot.
+              <li><h3>SayKid Software Developer Internship:</h3> Assist with software testing and debugging.
+              Collaborate with team members to design and implement an interactive program.
               Participate in code reviews to ensure high-quality code.
-              Research and learn new technologies such as DynamoDB, AWS, PHP, and WordPress to help develop a dynamic full-stack web page.
+              Research and learn new technologies such as DynamoDB, PHP, and WordPress.
               Troubleshoot and resolve software issues.
               Document software specifications and user manuals.
               Assist in the deployment of software.
               </li>
               <li><h3>SayKid Game Developer Externship:</h3> Code and debug game features using Natural Language Processing and JavaScript.
-              Create and maintain documentation for software development processes and procedures.
+              Create documentation for development processes.
               Test and iterate game mechanics to ensure a smooth and engaging user experience.
-              Use API to handle search queries to give the robot more intuitive response choices.
+              Used an API to handle search queries to give the robot more intuitive response choices.
               Collaborate with coworkers to integrate audio assets into software.
               Participate in team meetings and provide input on strategies.
               Assist with bug tracking and troubleshooting during the game development process.
@@ -78,7 +75,7 @@ function Home() {
               <li><h3>The Avenue:</h3> Built a website using React designed to allow clients to enroll in The Avenues Talent Search program.
               Collaborate with client to understand requirements.
               Test and debug code to ensure functionality
-              Apply up-to-date industry trends and technologies to solve problems.
+              Apply up-to-date industry technologies to solve problems.
               Made processing clients information and applications more efficient reducing the time and manpower needed for the company.
               Work independently to complete projects.
               Applied technical knowledge to offer advice on automating overly complex business processes, and improved their application process.
@@ -89,25 +86,47 @@ function Home() {
           {/* Image */}
           
           {/* Skills */}
-          <div className='home_r2elements'>
+    
+        </div>
+        <div className='skills_container'>
             <h1>
               Skills:
             </h1>
-            <ol>
-              <li>Python</li>
-              <li>Java</li>
-              <li>JavaScript</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>React.JS</li>
-              <li>SQL</li>
-              <li>Socket.io</li>
-              <li>.Net</li>
-              <li>C#</li>
-              <li>C++</li>
-            </ol>
-          </div>
+            <p>
+              JavaScript, HTML, CSS, Python, REST api, 
+              Java, Socket.io, C++, C#, Linux, Ubuntu, 
+              React.JS, Visual Studio, Asp.Net, SQL.
+            </p>
         </div>
+
+        <div className='skills_container'>
+          <h1>
+            Activities:
+          </h1>
+          <div className='home_r2elements'>
+              
+              <ul>
+                <li><h3>Black Student Alliance:</h3> This organization cultivates a 
+                sense of community within the African-American student body on campus. We met frequently and 
+                hosted events on campus.
+                </li>
+
+                <li><h3>Men Of Color:</h3> This is a group of intellectual men of different ethnic backgrounds 
+                who pursue excellence and lifelong relationships. We met regularly to check in on each other
+                and to plan events and career panels.
+                </li>
+
+                <li><h3>Cultural Houses Events Manager:</h3> Hosted events for the Carleton community and cultural 
+                housing groups. These various events included but were not limited to Thanksgiving
+                meals, field trips, cultural awareness talks, and more.
+                </li>
+
+
+              </ul>
+
+            </div>
+        </div>
+
 
         <div className='home_row3'>
           <h1>

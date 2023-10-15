@@ -1,6 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 .home{
     display: flex;
+
     flex-direction: column;
     
     /* margin-left: 15px;
@@ -11,14 +12,19 @@
 
 .home_row1{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 10px 0px 0px 10px;
+}
+
+.home_about{
+    display: flex;
+    flex-direction: column;
 }
 
 .home_row2{
     display: flex;
     flex-direction: row;
-    margin: 10px 0px 0px 10px;
+    margin: 10px;
 }
 
 .home_r2elements{
@@ -27,6 +33,17 @@
     flex-direction: column;
 }
 
+.skills_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.skills_container p {
+    text-align: center;
+}
 
 .home_row3{
     display: flex;
@@ -37,8 +54,9 @@
 
 .image_container{
     display: flex;
+    /* flex-direction: column; */
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     width: 100%;
 }
 
@@ -52,9 +70,9 @@ ul > li{
 .home_image{
     display: flex;
     width: 50%;
-    height: 250px;
+    /* height: 250px; */
     margin-right: 10px;
-    /* aspect-ratio: 1/1; */
+    aspect-ratio: 2/1;
     /* max-width: 500px;
     max-height: 500px; */
 }

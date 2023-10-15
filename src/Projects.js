@@ -9,12 +9,18 @@ function Projects() {
         <a href="https://github.com/Rodrick12123/Comps-Project" target="_blank" className='projects_indv'>
             <img src="/picph.PNG" alt="image" />
             <p>
+                
                 <div className='project_title'>
+                    <div className='description'>
+                        Click inside the box to view the source code
+                    </div>
                     Pictaphone
                     <div className='description'>
                         This project is a website game that players can 
                         play on a PC or remotely on a mobile device. Much like the game Pictionary,
-                        users are given a prompt and asked to draw said prompt to their best ability.
+                        users are given a prompt and asked to draw said prompt to their best ability. 
+                        The server is no longer active, so accessing the site requires using the npm start 
+                        command prompt.
                     </div>
 
                     <div className='project_contributors'>
@@ -43,11 +49,14 @@ function Projects() {
             <p>
                 
                 <div className='project_title'>
+                    <div className='description'>
+                        Click inside the box to view the website
+                    </div>
                     Amazon Replica
                     <div className='description'>
-                        I built this website using Amazon's website as inspiration to hone my web development skills.
+                        This is the first site I developed to hone my React skills using React.
                         This website features user authentication and sign-in, allowing users to save the items in
-                        their basket.
+                        their basket. Currently, the website is still in development.
                     </div>
                     
                     <div className='project_contributors'>
@@ -78,9 +87,12 @@ function Projects() {
             <p>
                 
                 <div className='project_title'>
+                    <div className='description'>
+                        Click inside the box to view the source code
+                    </div>
                     Artificial Ecology
                     <div className='description'>
-                    This program generates a evolving ecosytem that represents how cannibalistic 
+                    This program generates an evolving ecosystem that represents how cannibalistic 
                     organisms tend to gain a natural advantage in a limited ecosystem.
                     </div>
                     
@@ -112,10 +124,13 @@ function Projects() {
             <p>
                 
                 <div className='project_title'>
+                    <div className='description'>
+                        Click inside the box to view the source code
+                    </div>
                     Computer Graphic Models
                     <div className='description'>
-                    Project includes several c files that work together to do computer graphic-related tasks, 
-                    including but not limited to imageing with shadows and lighting, rasterization, 3D/2D views, 
+                    The project includes several c files that work together to do computer graphics-related tasks, 
+                    including but not limited to imaging with shadows and lighting, rasterization, 3D/2D views, 
                     and camera positioning.
                     </div>
                     
@@ -137,6 +152,9 @@ function Projects() {
             <img src="/cup.PNG" alt="image" />
             <p>
                 <div className='project_title'>
+                    <div className='description'>
+                        Click inside the box to view the source code
+                    </div>
                     World Cup Data
                     <div className='description'>
                         A website designed to allow its users to filter specific data and stats 
@@ -171,17 +189,20 @@ function Projects() {
             <p>
                 
                 <div className='project_title'>
+                    <div className='description'>
+                        Click inside the box to view the source code
+                    </div>
                     Artificial Extinction Model
                     <div className='description'>
-                    Simulates a simple ecosytem model where each species is encoded 
-                    with a different color and can move around within a grid/ecosystem. All species
-                    can reproduce, die, and go extinct. However, some organisms mutate, which eventually
+                    Simulates an ecosystem model where each species is encoded 
+                    with a different color and moves around within a grid. All species
+                    can reproduce, die, and go extinct. Some organisms mutate, which eventually
                     leads to their evolution.
                     </div>
                     
                     <div className='project_contributors'>
                         <strong>Contributors: </strong>
-                        <p>Rodrick Lankford, Sam Lengyel, Kai Weiner</p>
+                        <p>Anya Vostinar, Rodrick Lankford, Sam Lengyel, Kai Weiner</p>
                     </div>
                 </div>
             </p>
@@ -207,10 +228,13 @@ function Projects() {
             <p>
                
                 <div className='project_title'>
+                    <div className='description'>
+                        Click inside the box to view the site
+                    </div>
                     The Avenue Application
                     <div className='description'>
-                        Site that allows The Avenue clients to apply to the talent search
-                        program. It also sends a uniquely formated verison of the applicant's info to the company.
+                    A site that allows The Avenue clients to apply to the talent search
+                    program. It also sends a uniquely formatted version of the applicant's info to the company.
                     </div>
                     
                     <div className='project_contributors'>
@@ -239,7 +263,14 @@ function Projects() {
         <a href='https://github.com/Rodrick12123/Personal-Website' target="_blank" className='projects_indv'>
             <img src="/PW.PNG" alt="image" />
             <p>
-                This Website
+                <div className='project_title'>
+                    This Website
+                    <div className='project_contributors'>
+                        <strong>Contributors: </strong>
+                        <p>Rodrick Lankford</p>
+                    </div>
+                </div>
+                
             </p>
             <div className='languages'>
                 <div className='language'>
@@ -255,7 +286,7 @@ function Projects() {
         </a>
 
       </div>
-      <header>I intend on improving project listings and adding more projects from github, and my local directiores at a later date.</header>
+      <header>I intend on improving project listings and adding more projects from GitHub, and my local directories at a later date.</header>
     </div>
   )
 }
