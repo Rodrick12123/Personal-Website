@@ -4,6 +4,7 @@
   align-items: center;
   background-color: black;
   position: sticky;
+  width: 100%;
   top: 0;
   z-index: 100;
   /* could add width:98.8vw for mobile */
@@ -44,5 +45,5 @@
 }
 
 .header_projects:hover {
-  border: 1px solid goldenrod;
+  border: 2px solid goldenrod;
 }

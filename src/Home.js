@@ -11,7 +11,7 @@ function Home() {
     <div className='home'>
         <div className='home_row1'>
           <div className='image_container'>
-            <img src="/Me.jpg" alt="image" className='home_image'></img>
+            <img src="/profme.PNG" alt="image" className='home_image'></img>
           </div>
           
           <div className='home_about'>
@@ -27,9 +27,7 @@ function Home() {
               <p>Hello World, my name is Rodrick Victdeon Lankford. I am a skilled
               programmer who enjoys solving challenging problems. I graduated from 
               Carleton College in June 2023 with a bachelor's degree in Computer Science. 
-              My peers know me as reliable and someone who completes assigned 
-              duties promptly. One of my biggest career motivators 
-              involves developing innovative and creative software that pushes 
+              One of my biggest career motivators involves developing innovative and creative software that pushes 
               the capabilities of technology to a new level. I am currently looking for an opportunity
               to grow and apply my programming skills within an excellence-focused company. 
               That said, I strive to pursue paths where my endeavors improve the quality of life for all.</p>
@@ -49,44 +47,40 @@ function Home() {
               Technical Experiences:
             </h1>
             <ul>
-              <li><h3>SayKid Software Developer Internship:</h3> Assist with software testing and debugging.
-              Collaborate with team members to design and implement an interactive program.
-              Participate in code reviews to ensure high-quality code.
-              Research and learn new technologies such as DynamoDB, PHP, and WordPress.
-              Troubleshoot and resolve software issues.
-              Document software specifications and user manuals.
-              Assist in the deployment of software.
+              <li><h3>SayKid Software Developer Internship:</h3> Assisted with software testing and debugging.
+              Collaborated with team members to design and implement an interactive program.
+              Participated in code reviews to ensure high-quality code.
+              Researched and learned new tools and skills such as DynamoDB, PHP, NoSQL, and WordPress.
+              Troubleshot and resolved software issues.
+              Documented software specifications and user manuals.
+              Assisted in the deployment of software.
               </li>
-              <li><h3>SayKid Game Developer Externship:</h3> Code and debug game features using Natural Language Processing and JavaScript.
-              Create documentation for development processes.
-              Test and iterate game mechanics to ensure a smooth and engaging user experience.
+              <li><h3>SayKid Game Developer Externship:</h3> Programmed and debuged game features using Natural Language Processing and JavaScript.
+              Created documentation for development processes.
+              Tested game mechanics to ensure a smooth and engaging user experience.
               Used an API to handle search queries to give the robot more intuitive response choices.
-              Collaborate with coworkers to integrate audio assets into software.
-              Participate in team meetings and provide input on strategies.
-              Assist with bug tracking and troubleshooting during the game development process.
-              Contribute to the overall creative and technical vision of the game.
+              Collaborated with coworkers to integrate audio assets into software.
+              Participated in team meetings and provide input on strategies.
+              Assistd with bug tracking and troubleshooting during the game development process.
+              Contributed to the overall creative and technical vision of the game.
               </li>
-              <li><h3>Vex Robotics:</h3> At this competition I worked with a large team to
-              develop the code and design for a rover like robot. I held a leadership role which required me to manage 
+              <li><h3>Vex Robotics:</h3> Competed with a large team to
+              develop the code and design for a rover like robot. Held a leadership role which required managing 
               each individual group and facilitate communication between them.</li>
               <li><h3>BEST Robotics:</h3> Led the coding group who worked on developing the code for a rover-type robot who was designed to throw and pick up tokens and tennis balls to score points.
               Worked with the marketing team whose job was to market off our robot to a panel of judges using detailed design schematics and an overview of our code.
               </li>
               <li><h3>The Avenue:</h3> Built a website using React designed to allow clients to enroll in The Avenues Talent Search program.
-              Collaborate with client to understand requirements.
-              Test and debug code to ensure functionality
-              Apply up-to-date industry technologies to solve problems.
+              Collaborated with client to understand requirements.
+              Tested and debug code to ensure functionality
+              Applied up-to-date industry technologies to solve problems.
               Made processing clients information and applications more efficient reducing the time and manpower needed for the company.
-              Work independently to complete projects.
+              Worked independently to complete projects.
               Applied technical knowledge to offer advice on automating overly complex business processes, and improved their application process.
-              Document code and processes for future reference.
+              Documented code and processes for future reference.
               </li>
             </ul>
           </div>
-          {/* Image */}
-          
-          {/* Skills */}
-    
         </div>
         <div className='skills_container'>
             <h1>
@@ -105,26 +99,26 @@ function Home() {
           </h1>
           <div className='home_r2elements'>
               
-              <ul>
-                <li><h3>Black Student Alliance:</h3> This organization cultivates a 
-                sense of community within the African-American student body on campus. We met frequently and 
-                hosted events on campus.
-                </li>
+            <ul>
+              <li><h3>Black Student Alliance:</h3> This organization cultivates a 
+              sense of community within the African-American student body on campus. We met frequently and 
+              hosted events on campus.
+              </li>
 
-                <li><h3>Men Of Color:</h3> This is a group of intellectual men of different ethnic backgrounds 
-                who pursue excellence and lifelong relationships. We met regularly to check in on each other
-                and to plan events and career panels.
-                </li>
+              <li><h3>Men Of Color:</h3> This is a group of intellectual men of different ethnic backgrounds 
+              who pursue excellence and lifelong relationships. We met regularly to check in on each other
+              and to plan events and career panels.
+              </li>
 
-                <li><h3>Cultural Houses Events Manager:</h3> Hosted events for the Carleton community and cultural 
-                housing groups. These various events included but were not limited to Thanksgiving
-                meals, field trips, cultural awareness talks, and more.
-                </li>
+              <li><h3>Cultural Houses Events Manager:</h3> Hosted events for the Carleton community and cultural 
+              housing groups. These various events included but were not limited to Thanksgiving
+              meals, field trips, cultural awareness talks, and more.
+              </li>
 
 
-              </ul>
+            </ul>
 
-            </div>
+          </div>
         </div>
 
 
