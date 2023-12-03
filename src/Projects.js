@@ -6,13 +6,13 @@ function Projects() {
   return (
     <div className='projects'>
       <div className='projects_container'>
-        <a href="https://github.com/Rodrick12123/Comps-Project" target="_blank" className='projects_indv'>
+        <a href="https://cs.carleton.edu/cs_comps/2223/multiplayergame/final-results/website.html" target="_blank" className='projects_indv'>
             <img src="/picph.PNG" alt="image" />
             <p>
                 
                 <div className='project_title'>
                     <div className='description'>
-                        Click inside the box to view the source code
+                        Click inside the box to view more about this project
                     </div>
                     Pictaphone
                     <div className='description'>
@@ -54,7 +54,7 @@ function Projects() {
                     </div>
                     Amazon Replica
                     <div className='description'>
-                        This is the first site I developed to hone my React skills using React.
+                        This is the first site I developed to learn how to use React.
                         This website features user authentication and sign-in, allowing users to save the items in
                         their basket. Currently, the website is still in development.
                     </div>
@@ -107,13 +107,13 @@ function Projects() {
                     C++
                 </div>
                 <div className='language'>
-                    Shell
+                    R
                 </div>
                 <div className='language'>
                     HTML
                 </div>
                 <div className='language'>
-                    Empirical Library
+                    Python
                 </div>
             </div>
             
@@ -158,7 +158,7 @@ function Projects() {
                     World Cup Data
                     <div className='description'>
                         A website designed to allow its users to filter specific data and stats 
-                        using MySQL and REST API to understand the factors that played big roles in World Cup Statistics.
+                        using SQL and REST API to understand the factors that played big roles in World Cup Statistics.
                     </div>
                     <div className='project_contributors'>
                         <strong>Contributors: </strong>
@@ -264,7 +264,7 @@ function Projects() {
             <img src="/PW.PNG" alt="image" />
             <p>
                 <div className='project_title'>
-                    This Website
+                    This Personal Website
                     <div className='project_contributors'>
                         <strong>Contributors: </strong>
                         <p>Rodrick Lankford</p>
@@ -277,7 +277,7 @@ function Projects() {
                     HTML
                 </div>
                 <div className='language'>
-                    React
+                    CSS
                 </div>
                 <div className='language'>
                     JavaScript
