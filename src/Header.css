@@ -26,7 +26,7 @@
 .header_home {
   display: flex;
   text-decoration: none;
-  color: goldenrod;
+  color: white;
   padding: 5px;
   /* text-decoration: underline rgb(205, 176, 17); */
   text-decoration: underline black;
@@ -38,7 +38,7 @@
 
 .header_projects {
   display: flex;
-  color: goldenrod;
+  color: white;
   padding: 5px;
   /* text-decoration: underline rgb(205, 176, 17); */
   text-decoration: underline black;

@@ -23,9 +23,9 @@ function Home() {
             <p>School: Carleton College</p>
             <p>Degree: B.A. in Computer Science</p>
             <p>From: Dallas, Tx</p>
-            <p>Hello World, I'm Rodrick Victdeon Lankford, a passionate problem solver and skilled programmer.
-              My career journey includes acquiring a Computer Science degree from Carleton College in June 2023. I'm driven
-              by the pursuit of innovation, and crafting software that redefines technology's boundaries.
+            <p>My name is Rodrick Victdeon Lankford, a motivated and versatile software engineer with deep passion for creativity and innovation. 
+              I specialize in building scalable solutions using a diverse set of technologies and programming languages. I am currently residing in Dallas, Texas, 
+              and you can find more about my work and skills on this website and GitHub.
               I'm also actively seeking to contribute my expertise to an organization that
               shares my commitment to excellence. My ultimate goal is to harness and improve technology to enhance
               the quality of life for all. I am looking forward to connecting and collaborating in creating a brighter future.</p>
